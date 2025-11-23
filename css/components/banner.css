@@ -1,0 +1,24 @@
+.info-banner {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+
+.info-item {
+  text-align: center;
+  margin: 10px 20px;
+  min-width: 200px;
+}
+
+.info-item strong {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+}

@@ -1,0 +1,74 @@
+.links a {
+  font-size: 50px;
+}
+
+section h2 {
+  font-weight: 900;
+  font-size: 50px;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.introduce {
+  margin-top: 150px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.section-title-wrapper {
+  text-align: center;
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background: #50a9ed;
+  border-radius: 999px;
+  margin: 10px auto 0;
+}
+
+#portfolio {
+  scroll-margin-top: 100px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+}
+
+.about-left {
+  max-width: 50vw;
+}
+
+#about-me .about-left p {
+  font-size: 1rem !important;
+  line-height: 1.5;
+}
+
+#about-me {
+  max-width: 100%;
+  width: 100%;
+  padding: 80px 60px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#about-me .section-title {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 20px
+}

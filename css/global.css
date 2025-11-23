@@ -1,0 +1,137 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+@import url("components/header.css");
+@import url("components/banner.css");
+@import url("components/sections.css");
+@import url("components/projects.css");
+@import url("components/footer.css");
+@import url("components/buttons.css");
+@import url("components/mouse.css");
+
+body {
+  margin: 0;
+  font-family: 'Exo 2';
+  color: #333;
+  background-image: url("../Image/3030d659-ebda-4ba3-9968-16e24305c50f.png");
+}
+
+.side-icons {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 12px 10px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  z-index: 999999;
+  background: rgb(255 255 255 / 70%);
+  backdrop-filter: blur(5px);
+  width: fit-content;
+  overflow: hidden;
+}
+
+.side-icons a {
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 15%);
+}
+
+.side-icons svg {
+  width: 65%;
+  height: 65%;
+  display: block;
+}
+
+.side-icons a:hover {
+  transform: scale(1.15);
+  color: #444;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#projects {
+  scroll-margin-top: 120px;
+}
+
+#info-banner {
+  scroll-margin-top: 117px;
+}
+
+.about-block {
+  width: 100%;
+  padding: 80px 0 40px;
+  text-align: center;
+}
+
+.about-block .section-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  text-align: left;
+}
+
+.about-left p {
+  font-size: 1.07rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 90%;
+}
+
+.about-right {
+  min-height: 120px;
+  background: transparent;
+  width: 100%;
+  max-width: 40%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skills-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-badge {
+  background: #e8e8e8;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.skill-badge:hover {
+  background: #dcdcdc;
+  transform: translateY(-2px);
+}
