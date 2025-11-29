@@ -5,6 +5,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .project-card {
@@ -32,7 +33,6 @@
 .project-card p {
   color: rgb(255 255 255);
   font-weight: 400;
-
 }
 
 .project-card a {

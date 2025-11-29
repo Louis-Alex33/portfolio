@@ -25,7 +25,6 @@ section h2 {
 .section-title {
   position: relative;
   display: inline-block;
-  margin-bottom: 25px;
 }
 
 .section-title::after {

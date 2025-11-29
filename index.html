@@ -42,9 +42,16 @@
 
 <div>
   <section class="introduce">
-    <h2>HELLO
-      <br>
-      JE SUIS LOUIS-ALEXANDRE</h2>
+
+<div class="docs-demo-html">
+  <div class="large centered grid square-grid">
+    <p class="text-l">
+      HELLO <br>
+      JE SUIS LOUIS-ALEXANDRE
+    </p>
+  </div>
+</div>
+
     <p>
     Développeur web full-stack formé au Wagon, je conçois des applications qui tournent bien, avec une base solide et un code propre. J’aime connecter des API, optimiser les parcours utilisateurs et intégrer des outils d’IA pour rendre les projets plus intelligents et plus fluides.
     <br>
@@ -139,7 +146,7 @@
         <a href="https://eversportzone.com/" class="btn" target="_blank">Voir</a>
       </div>
 
-      <div class="project-card buddy">
+      <div class="project-card buddy" id="study-buddy-card">
         <h3>Study Buddy(projet Ruby on Rails en cours)</h3>
         <p>Turn your notes into knowledge</p>
         <a href="#" class="btn">Voir</a>
@@ -162,7 +169,7 @@
   </div>
 </section> -->
 
-  <section id="contact" class="contact">
+  <!-- <section id="contact" class="contact">
   <h2>CONTACT</h2>
   <p>
     Un projet, une question, ou envie de collaborer&nbsp;?
@@ -188,7 +195,7 @@
 
     <button type="submit" class="btn-primary">Envoyer</button>
   </form>
-</section>
+</section> -->
 
   <footer class="footer">
   <div class="footer-left">
@@ -218,5 +225,31 @@
 
 
   <script src="script.js"></script>
+  <script type="module" src="js/header-anim.js"></script>
+  <script src="script.js"></script>
+  <script type="module" src="js/header-anim.js"></script>
+
+  <script src="three.r134.min.js"></script>
+  <script src="vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#study-buddy-card",   // ← on cible ta card ici !
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xf0f0f0,
+  backgroundColor: 0xa0439,
+  points: 20.00,
+  maxDistance: 24.00,
+  spacing: 16.00,
+  showDots: false
+});
+</script>
+
+
 </body>
 </html>
