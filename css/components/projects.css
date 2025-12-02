@@ -97,8 +97,13 @@
   display: inline-block;
 }
 
-.buddy p {
-color: black;
+.buddy {
+  color: white;
+  box-shadow: 0 8px 10px rgb(1 6 55 / 30%), 0 8px 10px rgb(1 6 55 / 30%), 0 8px 10px rgb(1 6 55 / 30%);
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+  background-color: #0a0439;
 }
 
 /* * { outline: 1px solid red !important; } */
